@@ -59,8 +59,6 @@ continue.bat
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ## Usage
 When deciding to continue on an exisitng project:
 - Run continue.bat
@@ -74,10 +72,10 @@ When deciding to continue on an exisitng project:
 - Input exit again to exit the nested terminal, and hence the app.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## License
-
-None
+<a href="https://github.com/Kader-the-Coder/ContinueProject/blob/main/LICENSE" target="_blank">
+  GNU General Public License v3.0
+</a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
