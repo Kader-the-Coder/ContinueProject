@@ -1,1 +1,1 @@
-cmd /k python continue.py
+cmd /c python .
