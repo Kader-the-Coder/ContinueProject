@@ -24,7 +24,6 @@ def execute_bat(project):
     bat_cmd.insert(0, f"TITLE Working on {project}")
     bat_cmd.append("cmd /c code .")
     bat_cmd.append("cmd /c cls")
-    bat_cmd.append(f"cmd /k prompt ({project}) ")
     os.system(f"attrib -h {BAT}")
     with open(BAT, "w", encoding="UTF-8") as bat:
         bat.write("\n".join(command for command in bat_cmd))
@@ -84,9 +83,10 @@ def get_project():
 
 while True:
     os.system("TITLE Project manager")
-    bat_cmd = []    # Initialize list of commands to put in temp.bat   
+    bat_cmd = []    # Initialize list of commands to put in temp.bat
     try:
         get_project()
+        break
     except KeyboardInterrupt:
-        print("DONE")
+        print("Program terminated.")
         break
